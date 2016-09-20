@@ -1,0 +1,49 @@
+name: Square1
+type: profile
+description: 'A Drupal 8 install profile with August Ash opinions pre-configured.'
+core: 8.x
+distribution:
+  name: Square1
+dependencies:
+  # core modules
+  - automated_cron
+  - block
+  - breakpoint
+  - ckeditor
+  - config
+  - contextual
+  - contact
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - field_ui
+  - file
+  - image
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - quickedit
+  - rdf
+  - search
+  - shortcut
+  - taxonomy
+  - toolbar
+  - views
+  - views_ui
+  # contrib modules
+  - ctools
+  - devel
+  - pathauto
+  - token
+  # custom modules
+  - iconify
+  - real_favicon
+  - valet
+themes:
+  - fett
+  - bartik
+  - seven

@@ -1,0 +1,28 @@
+{
+    "name": "augustash/square1_install",
+    "description": "A Drupal 8 install profile with August Ash opinions pre-configured.",
+    "type": "drupal-profile",
+    "license": "GPL-2.0+",
+    "require": {
+        "drupal/ctools": "3.x-dev",
+        "drupal/devel": "1.x-dev",
+        "drupal/pathauto": "1.x-dev",
+        "drupal/token": "1.x-dev",
+        "jacerider/fett": "dev-8.x-1.x-dev",
+        "jacerider/iconify": "dev-master",
+        "jacerider/real_favicon": "dev-master",
+        "jacerider/valet": "dev-8.x-1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "augustash": {
+            "type": "composer",
+            "url": "https://packages.augustash.com/repo/private/"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Page'
+type: page
+description: 'Use <em>pages</em> for your static content, such as an ''About us'' page.'
+new_revision: false
+preview_mode: 1
+display_submitted: false
